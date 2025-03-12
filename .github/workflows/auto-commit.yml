@@ -11,17 +11,26 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Ensures we fetch the full history to avoid merge conflicts
 
       - name: Set up Git
         run: |
-          git config --global user.name "YOUR_GITHUB_USERNAME"
-          git config --global user.email "YOUR_EMAIL@example.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Pull latest changes
+        run: |
+          git pull origin main --rebase  # Ensure the latest changes are merged
 
       - name: Make a dummy commit
         run: |
           echo "$(date)" >> dummy.txt
           git add dummy.txt
           git commit -m "Auto commit: $(date)"
-          git push
+          
+      - name: Push changes
+        run: |
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
