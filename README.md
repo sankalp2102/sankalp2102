@@ -57,5 +57,8 @@ I'm **Sankalp**, a passionate Software Engineer 🚀, building innovative soluti
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sankalp-gupta-95b39b258) 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-sankalpgupta444@gmail.com)
 
-##
-![GitHub Contribution Snake](https://raw.githubusercontent.com/sankalp2102/sankalp2102/output/github-contribution-grid-snake.svg)
+### 🐍 GitHub Contribution Snake Animation
+
+#### 🌙 Dark Mode
+![GitHub Contribution Snake](https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-snake-dark.svg?palette=github-dark)
+
