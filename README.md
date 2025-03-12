@@ -60,5 +60,5 @@ I'm **Sankalp**, a passionate Software Engineer 🚀, building innovative soluti
 ### 🐍 GitHub Contribution Snake Animation
 
 #### 🌙 Dark Mode
-![GitHub Contribution Snake](https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-snake-dark.svg?palette=github-dark)
+![GitHub Contribution Snake](https://raw.githubusercontent.com/sankalp2102/sankalp2102/output/github-snake-dark.svg?palette=github-dark)
 
