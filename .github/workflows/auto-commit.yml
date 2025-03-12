@@ -1,0 +1,27 @@
+name: Auto Commit to Keep Contributions Active
+
+on:
+  schedule:
+    - cron: "0 6,18 * * *"  # Runs at 6 AM and 6 PM UTC
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "YOUR_GITHUB_USERNAME"
+          git config --global user.email "YOUR_EMAIL@example.com"
+
+      - name: Make a dummy commit
+        run: |
+          echo "$(date)" >> dummy.txt
+          git add dummy.txt
+          git commit -m "Auto commit: $(date)"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
