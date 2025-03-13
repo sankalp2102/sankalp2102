@@ -2,7 +2,7 @@ name: Auto Commit to Keep Contributions Active
 
 on:
   schedule:
-    - cron: "0 6,10,14,18,22 * * *"  
+    - cron: "0 4,8,12,16,20,24 * * *"  
   workflow_dispatch: 
 
 jobs:
@@ -16,8 +16,8 @@ jobs:
 
       - name: Set up Git with Your Identity
         run: |
-          git config --global user.name "Sankalp"  # Replace with your GitHub username
-          git config --global user.email "your-email@example.com"  # Replace with your GitHub email
+          git config --global user.name "sankalp2102"  
+          git config --global user.email "sankalpgupta444@gmail.com"
 
       - name: Pull latest changes
         run: |
