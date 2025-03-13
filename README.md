@@ -59,6 +59,9 @@ I'm **Sankalp**, a passionate Software Engineer 🚀, building innovative soluti
 
 ### 🐍 GitHub Contribution Snake Animation
 
-#### 🌙 Dark Mode
-![GitHub Contribution Snake](https://raw.githubusercontent.com/sankalp2102/sankalp2102/output/github-snake-dark.svg?palette=github-dark)
+![Snake animation](https://github.com/sankalp2102/sankalp2102/blob/output/github-contribution-grid-snake.gif)
 
+<!-- Alternative animations -->
+![Rainbow Snake](https://github.com/sankalp2102/sankalp2102/blob/output/rainbow.gif)
+![Fire Snake](https://github.com/sankalp2102/sankalp2102/blob/output/fire.gif)
+![Neon Snake](https://github.com/sankalp2102/sankalp2102/blob/output/neon.gif)
