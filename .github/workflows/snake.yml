@@ -2,7 +2,7 @@ name: Generate GitHub Contribution Snake Animation
 
 on:
   schedule:
-    - cron: "0 6,18 * * *"  # Runs at 6 AM and 6 PM UTC
+    - cron: "0 6,18,20 * * *"  # Runs at 6 AM and 6 PM UTC
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
