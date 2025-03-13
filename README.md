@@ -57,11 +57,21 @@ I'm **Sankalp**, a passionate Software Engineer 🚀, building innovative soluti
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sankalp-gupta-95b39b258) 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-sankalpgupta444@gmail.com)
 
-### 🐍 GitHub Contribution Snake Animation
 
-![Snake animation](https://github.com/sankalp2102/sankalp2102/blob/output/github-contribution-grid-snake.gif)
-
-<!-- Alternative animations -->
-![Rainbow Snake](https://github.com/sankalp2102/sankalp2102/blob/output/rainbow.gif)
-![Fire Snake](https://github.com/sankalp2102/sankalp2102/blob/output/fire.gif)
-![Neon Snake](https://github.com/sankalp2102/sankalp2102/blob/output/neon.gif)
+<div align="center">
+  <h2>🐍 My Contribution Graph 🐍</h2>
+  
+  <!-- Choose your favorite style from below -->
+  
+  <!-- Cyberpunk Style -->
+  <img src="https://github.com/sankalp2102/sankalp2102/blob/output/cyberpunk.gif" alt="Snake animation" />
+  
+  <!-- Matrix Style -->
+  <img src="https://github.com/sankalp2102/sankalp2102/blob/output/matrix.gif" alt="Snake animation" /> 
+  
+  <!-- Aurora Style -->
+  <img src="https://github.com/sankalp2102/sankalp2102/blob/output/aurora.gif" alt="Snake animation" /> 
+  
+  <!-- Synthwave Style -->
+  <img src="https://github.com/sankalp2102/sankalp2102/blob/output/synthwave.gif" alt="Snake animation" /> 
+</div>
