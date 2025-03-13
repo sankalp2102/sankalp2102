@@ -1,4 +1,4 @@
-name: Generate GitHub Contribution Snake Animation
+name: Generate Super Cool GitHub Contribution Snake Animation
 on:
   schedule:
     - cron: "0 6,18,20 * * *"  # Runs at 6 AM, 6 PM, and 8 PM UTC
@@ -17,16 +17,25 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: sankalp2102
-          svg_out_path: dist/github-contribution-grid-snake.svg
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=blue&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-            dist/neon.gif?color_snake=#33ff00&color_dots=#000000,#111111,#222222,#333333,#444444
-            dist/fire.gif?color_snake=#ff3300&color_dots=#ffcc00,#ff9900,#ff6600,#ff3300,#cc0000
-            dist/rainbow.gif?color_snake=rainbow&color_dots=#ff0000,#ffa500,#ffff00,#008000,#0000ff,#4b0082,#ee82ee
-          snake_color: rainbow
-          gif_out_path: dist/github-contribution-grid-snake.gif
+            # Super vibrant, high-contrast neon theme
+            dist/neon-hyperdrive.gif?color_snake=#00ffff&color_dots=#000000,#111111,#222222,#333333,#9000ff
+            
+            # Cyberpunk theme with animated gradient
+            dist/cyberpunk.gif?color_snake=gradient,#ff00ff,#00ffff,#ffff00&color_dots=#000000,#550055,#005555,#555500,#222222
+            
+            # Matrix-inspired theme
+            dist/matrix.gif?color_snake=#00ff00&color_dots=#000000,#001100,#002200,#003300,#004400&bg_color=#000000
+            
+            # Aurora borealis effect
+            dist/aurora.gif?color_snake=gradient,#9400D3,#4B0082,#0000FF,#00FF00,#FFFF00,#FF7F00,#FF0000&color_dots=#000000,#111111,#222222,#333333,#444444&bg_color=#000000
+            
+            # Fire and ice contrast
+            dist/fire-ice.gif?color_snake=gradient,#00ccff,#0066ff,#ff3300,#ff6600&color_dots=#000033,#000066,#330000,#660000
+            
+            # Synthwave sunset
+            dist/synthwave.gif?color_snake=gradient,#ff00ff,#ff3377,#ff6655,#ffcc00&color_dots=#220033,#330044,#440055,#550066,#660077
+          snake_color: gradient,#ff00ff,#00ffff,#ffff00,#33ff00
           
       - name: Push the Snake animation to the repo
         uses: crazy-max/ghaction-github-pages@v3
