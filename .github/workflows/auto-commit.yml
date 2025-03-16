@@ -2,7 +2,7 @@ name: Auto Commit to Keep Contributions Active
 
 on:
   schedule:
-    - cron: "0 4,8,12,16,20,24 * * *"  
+    - cron: "0 4,8,12,16,20,23 * * *"  
   workflow_dispatch: 
 
 jobs:
